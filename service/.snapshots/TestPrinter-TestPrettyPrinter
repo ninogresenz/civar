@@ -1,0 +1,11 @@
+SCOPE     	KEY      	VALUE                                                                                                                                                                    	TYPE   	MASKED	PROTECTED 
+*         	TEST_KEY1	MY_VARIABLE1                                                                                                                                                             	env_var	false 	false    	
+*         	TEST_KEY2	MY_VARIABLE2                                                                                                                                                             	env_var	false 	false    	
+*         	TEST_KEY3	MY_VARIABLE3                                                                                                                                                             	env_var	false 	false    	
+staging   	TEST_KEY1	MY_VARIABLE1                                                                                                                                                             	env_var	false 	false    	
+staging   	TEST_KEY2	MY_VARIABLE2                                                                                                                                                             	env_var	false 	false    	
+staging   	TEST_KEY3	MY_VARIABLE3                                                                                                                                                             	env_var	false 	false    	
+production	TEST_KEY1	MY_VARIABLE1                                                                                                                                                             	env_var	false 	false    	
+production	TEST_KEY2	MY_VARIABLE2                                                                                                                                                             	env_var	false 	false    	
+production	TEST_KEY3	MY_VARIABLE3 with a very very very very very very very very very very very very very very very very very very very very very very very very very very very very long name	env_var	false 	false    	
+

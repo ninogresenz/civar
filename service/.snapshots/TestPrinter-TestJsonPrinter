@@ -1,0 +1,74 @@
+[
+  {
+    "key": "TEST_KEY1",
+    "variable_type": "env_var",
+    "value": "MY_VARIABLE1",
+    "protected": false,
+    "masked": false,
+    "environment_scope": "*"
+  },
+  {
+    "key": "TEST_KEY2",
+    "variable_type": "env_var",
+    "value": "MY_VARIABLE2",
+    "protected": false,
+    "masked": false,
+    "environment_scope": "*"
+  },
+  {
+    "key": "TEST_KEY3",
+    "variable_type": "env_var",
+    "value": "MY_VARIABLE3",
+    "protected": false,
+    "masked": false,
+    "environment_scope": "*"
+  },
+  {
+    "key": "TEST_KEY1",
+    "variable_type": "env_var",
+    "value": "MY_VARIABLE1",
+    "protected": false,
+    "masked": false,
+    "environment_scope": "staging"
+  },
+  {
+    "key": "TEST_KEY2",
+    "variable_type": "env_var",
+    "value": "MY_VARIABLE2",
+    "protected": false,
+    "masked": false,
+    "environment_scope": "staging"
+  },
+  {
+    "key": "TEST_KEY3",
+    "variable_type": "env_var",
+    "value": "MY_VARIABLE3",
+    "protected": false,
+    "masked": false,
+    "environment_scope": "staging"
+  },
+  {
+    "key": "TEST_KEY1",
+    "variable_type": "env_var",
+    "value": "MY_VARIABLE1",
+    "protected": false,
+    "masked": false,
+    "environment_scope": "production"
+  },
+  {
+    "key": "TEST_KEY2",
+    "variable_type": "env_var",
+    "value": "MY_VARIABLE2",
+    "protected": false,
+    "masked": false,
+    "environment_scope": "production"
+  },
+  {
+    "key": "TEST_KEY3",
+    "variable_type": "env_var",
+    "value": "MY_VARIABLE3 with a very very very very very very very very very very very very very very very very very very very very very very very very very very very very long name",
+    "protected": false,
+    "masked": false,
+    "environment_scope": "production"
+  }
+]

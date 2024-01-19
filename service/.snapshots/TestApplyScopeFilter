@@ -1,0 +1,26 @@
+(gitlab.CiVariableList) (len=3) {
+  (gitlab.CiVariable) {
+    Key: (string) (len=9) "TEST_KEY1",
+    VariableType: (string) (len=7) "env_var",
+    Value: (string) (len=12) "MY_VARIABLE1",
+    Protected: (bool) false,
+    Masked: (bool) false,
+    EnvironmentScope: (string) (len=7) "staging"
+  },
+  (gitlab.CiVariable) {
+    Key: (string) (len=9) "TEST_KEY2",
+    VariableType: (string) (len=7) "env_var",
+    Value: (string) (len=12) "MY_VARIABLE2",
+    Protected: (bool) false,
+    Masked: (bool) false,
+    EnvironmentScope: (string) (len=7) "staging"
+  },
+  (gitlab.CiVariable) {
+    Key: (string) (len=9) "TEST_KEY3",
+    VariableType: (string) (len=7) "env_var",
+    Value: (string) (len=12) "MY_VARIABLE3",
+    Protected: (bool) false,
+    Masked: (bool) false,
+    EnvironmentScope: (string) (len=7) "staging"
+  }
+}

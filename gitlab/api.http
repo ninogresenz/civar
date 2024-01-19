@@ -1,0 +1,14 @@
+# https://docs.gitlab.com/ee/api/projects.html
+GET {{base_url}}/api/v4/projects?archived=false&order_by=name&sort=asc
+PRIVATE-TOKEN: {{api_key}}
+
+###
+
+# https://docs.gitlab.com/ee/api/project_level_variables.html
+GET {{base_url}}/api/v4/projects/281/variables
+PRIVATE-TOKEN: {{api_key}}
+
+###
+
+GET {{base_url}}/api/v4/search?scope=projects&search=outcome
+PRIVATE-TOKEN: {{api_key}}

@@ -1,0 +1,18 @@
+([]gitlab.CiVariable) (len=2) {
+  (gitlab.CiVariable) {
+    Key: (string) (len=20) "K8S_SECRET_TEST_VAR1",
+    VariableType: (string) (len=7) "env_var",
+    Value: (string) (len=9) "TEST_VAL1",
+    Protected: (bool) false,
+    Masked: (bool) false,
+    EnvironmentScope: (string) (len=1) "*"
+  },
+  (gitlab.CiVariable) {
+    Key: (string) (len=20) "K8S_SECRET_TEST_VAR2",
+    VariableType: (string) (len=7) "env_var",
+    Value: (string) (len=9) "TEST_VAL2",
+    Protected: (bool) false,
+    Masked: (bool) false,
+    EnvironmentScope: (string) (len=1) "*"
+  }
+}
